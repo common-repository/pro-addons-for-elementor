@@ -1,0 +1,20 @@
+.elementor-element-wrapper:not(.elementor-element--promotion) .icon .pafe::after{
+  content: "";
+  width: 17px;
+  height: 15px;
+  background: #92003b url('/wp-content/plugins/pro-addons-for-elementor/assets/images/logo-icon.png') no-repeat center/10px;
+  position: absolute;
+  border-radius: 2px;
+  top: 5px;
+  right: 5px;
+}
+[class*="elementor-control-pafe"] .elementor-section-title::before{
+  content: "";
+  width: 17px;
+  height: 15px;
+  background: #92003b url('/wp-content/plugins/pro-addons-for-elementor/assets/images/logo-icon.png') no-repeat center/10px;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
